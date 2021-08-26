@@ -1,2 +1,3 @@
-#To start 
+//To start 
+:
 npm start
