@@ -1,0 +1,38 @@
+* {
+  box-sizing: border-box;
+  
+}
+.App {
+  display : flex;
+  flex-direction: column;
+
+}
+
+.header {
+  background: #3b5998;
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem 2rem;
+  color: goldenrod;
+  align-items: center;
+}
+.header select {
+  height: 30px;
+  width: 140px;
+  border-radius: 5px;
+  border: none;
+}
+
+section{
+  padding: 2rem;
+}
+
+.contents {
+  display :grid ;
+  grid-template-columns: repeat(auto-fit, minmax(500px, 3fr));
+  grid-gap: 2rem;
+
+}
+.contents div{
+  padding: 2em;
+}
